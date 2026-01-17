@@ -1,0 +1,23 @@
+<!-- boy_intro.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Threads – Unwound: Baby Boy</title>
+  <script>
+    // List of boy events
+    const events = [
+      "boy_event1.md",
+      "boy_event2.md",
+      "boy_event3.md"
+    ];
+    // Pick one randomly
+    const next = events[Math.floor(Math.random() * events.length)];
+    // Redirect to it
+    window.location.href = next;
+  </script>
+</head>
+<body>
+  <p>Choosing your path...</p>
+</body>
+</html>
